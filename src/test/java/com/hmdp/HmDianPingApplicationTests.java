@@ -88,7 +88,7 @@ public class HmDianPingApplicationTests {
         List<User> userList = userService.lambdaQuery().last("limit 1000").list();
 
         // 2. 准备输出文件 tokens.txt
-        File file = new File("D:/tokens.txt");
+        File file = new File("D:/Major/apache-jmeter-5.6.3/tokens.txt");
         if (!file.exists()) {
             file.createNewFile();
         }
